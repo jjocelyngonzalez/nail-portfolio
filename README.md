@@ -8,9 +8,13 @@ This project is my first mock website, built using HTML and CSS! It's a nail art
 
 ## 🧑‍💻 User Stories
 -As a user, I want to browse a gallery of nail designs so I can choose a style I like.
+
 -As a user, I want to easily navigate the website and find the booking section.
+
 -As a user, I want to fill out a simple form to book an appointment.
+
 -As a user, I want confirmation that my booking was submitted successfully.
+
 -As a user, I want the site to be mobile-friendly so I can book from my phone.
 
 ## 🚀 How to Use
