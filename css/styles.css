@@ -5,24 +5,20 @@ body {
     background-color: #fff0f5;
     color: #333;
   }
-  
   h1, h2, h3, h4 {
     font-family: 'Pacifico', cursive;
   }
-   
   nav {
     background-color: #f8c8dc;
     padding: 1em;
     text-align: center;
   }
-  
   nav a {
     margin: 0 1em;
     text-decoration: none;
     color: #333;
     font-weight: bold;
   }
-
 .footer {
   background-color: #f8c8dc; 
   color: white;
@@ -32,14 +28,12 @@ body {
   bottom: 0;
   width: 100%;
 }
-
 .social-links {
   display: flex;                  
   justify-content: center;        
   gap: 15px;                      
   margin-top: 15px;
 }
-
 .social-icon {
   color: white;
   font-size: 18px;
@@ -48,45 +42,38 @@ body {
   align-items: center;            
   transition: color 0.3s ease;
 }
-
 .insta-icon {
   width: 35px;       
   height: 35px;      
   margin-right: 8px; 
   transition: transform 0.3s ease;
 }
-
 .social-icon:hover {
   color: #e83e8c;
 }
-
 .insta-icon:hover {
   transform: scale(1.2); 
 }
-
 @media (max-width: 768px) {
   .social-icon {
     font-size: 16px;
   }
-
   .insta-icon {
     width: 30px;
     height: 30px;
   }
 }
-
   .hero {
     text-align: center;
     padding: 2em;
     background-color: #ffe4ec;
   }
-  
   .hero img {
     max-width: 300px;
     border-radius: 1em;
     margin-top: 1em;
   }
-  
+
   form label {
     display: block;
     margin-bottom: 0.5em;
@@ -106,4 +93,63 @@ body {
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
   background-color: #e83e8c; 
+}
+#contact {
+  background-color: #FFEBEE; 
+  padding: 60px 0;
+  text-align: center;
+}
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+#contact h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 40px;
+}
+.contact-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #0d0005;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #f8c8dc;
+  outline: none;
+}
+.submit-btn {
+  margin-top: 10px;
+  background-color: #FF4081;
+  color: white;
+  font-size: 18px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.submit-btn:hover {
+  background-color: palevioletred;
 }
