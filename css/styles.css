@@ -19,6 +19,13 @@ body {
     color: #333;
     font-weight: bold;
   }
+  .hero-btn {
+    color: #FF4081;
+    width: 35px;       
+    height: 35px;      
+    margin-right: 8px; 
+    transition: transform 0.3s ease;
+  }
 .footer {
   background-color: #f8c8dc; 
   color: white;
