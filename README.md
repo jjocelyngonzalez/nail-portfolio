@@ -4,7 +4,7 @@
 Jocelyn Gonzalez :D
 
 ## 📝 Overview
-This project is my first mock website, built using HTML and CSS! It's a nail art website that showcases not some nail art, but my front-end skills as well!
+This project is my first mock website, built using HTML and CSS! It's a nail art website that showcases not only some nail art, but my front-end skills as well!
 
 ## 🧑‍💻 User Stories
 -As a user, I want to browse a gallery of nail designs so I can choose a style I like.
