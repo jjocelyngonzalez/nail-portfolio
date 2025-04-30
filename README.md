@@ -31,8 +31,10 @@ This project is my first mock website, built using HTML and CSS! It's a website 
 - [Gallery Page Wireframe](wireframes/gallery.png)
 - [Contact Page Wireframe](wireframes/contact.png)
 
-
 ## 🌱 Ideas for Future Improvement
 1. Add JavaScript so the booking can process more interactively and be saved.
 2. Integrate a calendar so clients can choose a specific date and time.
 3. Add a section for client reviews.
+
+🌐 View the live website: 
+https://jjocelyngonzalez.github.io/nail-portfolio/
