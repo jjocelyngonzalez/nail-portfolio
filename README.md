@@ -19,12 +19,18 @@ This project is my first mock website, built using HTML and CSS! It's a nail art
 
 ## 🚀 How to Use
 - Open `index.html` in your browser.
-- Browse through the different sections of the portfolio.
+- Browse through the 3 pages of the website.
 - Enjoy the art!
 
 ## 🛠️ Technologies Used
 - HTML
 - CSS
+
+## Wireframes
+- [Home Page Wireframe](wireframes/home.png)
+- [Gallery Page Wireframe](wireframes/gallery.png)
+- [Contact Page Wireframe](wireframes/contact.png)
+
 
 ## 🌱 Ideas for Future Improvement
 1. Add JavaScript so the booking can process more interactively and be saved.
