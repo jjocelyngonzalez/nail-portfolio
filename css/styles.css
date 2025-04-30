@@ -1,138 +1,152 @@
-body {
-    font-family: 'Pacifico', cursive, sans-serif;  
-    margin: 0;
-    padding: 0;
-    background-color: #fff0f5;
-    color: #333;
-  }
-  h1, h2, h3, h4 {
-    font-family: 'Pacifico', cursive;
-  }
-  nav {
-    background-color: #f8c8dc;
-    padding: 1em;
-    text-align: center;
-  }
-  nav a {
-    margin: 0 1em;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  .hero-btn {
-    color: #FF4081;
-    width: 35px;       
-    height: 35px;      
-    margin-right: 8px; 
-    transition: transform 0.3s ease;
-  }
-.footer {
-  background-color: #f8c8dc; 
-  color: white;
-  padding: 30px 0;
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-.social-links {
-  display: flex;                  
-  justify-content: center;        
-  gap: 15px;                      
-  margin-top: 15px;
-}
-.social-icon {
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  display: flex;                  
-  align-items: center;            
-  transition: color 0.3s ease;
-}
-.insta-icon {
-  width: 35px;       
-  height: 35px;      
-  margin-right: 8px; 
-  transition: transform 0.3s ease;
-}
-.social-icon:hover {
-  color: #e83e8c;
-}
-.insta-icon:hover {
-  transform: scale(1.2); 
-}
-@media (max-width: 768px) {
-  .social-icon {
-    font-size: 16px;
-  }
-  .insta-icon {
-    width: 30px;
-    height: 30px;
-  }
-}
-  .hero {
-    text-align: center;
-    padding: 2em;
-    background-color: #ffe4ec;
-  }
-  .hero img {
-    max-width: 300px;
-    border-radius: 1em;
-    margin-top: 1em;
-  }
+/* Global Styles & Fonts */
 
-  form label {
-    display: block;
-    margin-bottom: 0.5em;
-  }
-  .carousel-item img {
-    max-height: 800px;
-    object-fit: contain;
-    width: 100%;
-  }
-  .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #d63384; 
-  border-radius: 50%; 
-  height: 40px; 
-  width: 40px;
+body {
+  font-family: 'Pacifico', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  color: #333;
 }
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: #e83e8c; 
+
+h1, h2, h3, h4 {
+  font-family: 'Pacifico', cursive;
 }
-#contact {
-  background-color: #FFEBEE; 
-  padding: 60px 0;
+
+
+/* Nav Bar */
+nav {
+  background-color: #f8c8dc;
+  padding: 1em;
   text-align: center;
 }
-.container {
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+/* Hero Section */
+
+.hero {
+  text-align: center;
+  padding: 2em;
+  background-color: #fff0f5;
+}
+
+.hero img {
+  max-width: 300px;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+.hero-btn {
+  color: #FF4081;
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+.hero-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.hero-layout img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.side-text {
+  max-width: 200px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Carousel */
+
+.nailCarousel {
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
 }
+
+.carousel-item img {
+  max-height: 800px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d63384;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #e83e8c;
+}
+
+
+/* Gallery Sections / Boxes */
+
+section {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.5);
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 900px;
+}
+
+
+/* Contact Section + Form */
+
+#contact {
+  background-color: #FFEBEE;
+  padding: 60px 0;
+  text-align: center;
+}
+
 #contact h2 {
   font-family: 'Pacifico', cursive;
   font-size: 36px;
   color: #333;
   margin-bottom: 40px;
 }
+
 .contact-form {
   background-color: #fff;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
 }
+
 .form-group {
   margin-bottom: 20px;
   text-align: left;
 }
+
 .form-group label {
   display: block;
   margin-bottom: 8px;
   font-weight: 600;
   color: #555;
 }
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -141,11 +155,13 @@ body {
   border-radius: 8px;
   font-size: 16px;
 }
+
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #f8c8dc;
   outline: none;
 }
+
 .submit-btn {
   margin-top: 10px;
   background-color: #FF4081;
@@ -157,6 +173,65 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .submit-btn:hover {
   background-color: palevioletred;
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: #f8c8dc;
+  color: white;
+  padding: 30px 0;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #e83e8c;
+}
+
+.insta-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+.insta-icon:hover {
+  transform: scale(1.2);
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .social-icon {
+    font-size: 16px;
+  }
+
+  .insta-icon {
+    width: 30px;
+    height: 30px;
+  }
 }
