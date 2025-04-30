@@ -4,14 +4,14 @@
 Jocelyn Gonzalez :D
 
 ## 📝 Overview
-This project is my first mock website, built using HTML and CSS! It's a nail art portfolio that showcases not only the art, but my front-end skills as well!
+This project is my first mock website, built using HTML and CSS! It's a website that showcases not only some nail art, but my front-end skills as well!
 
 ## 🧑‍💻 User Stories
 -As a user, I want to browse a gallery of nail designs so I can choose a style I like.
 
 -As a user, I want to easily navigate the website and find the booking section.
 
--As a user, I want to fill out a simple form to book an appointment.
+-As a user, I want the form to be simple and not complicated.
 
 -As a user, I want confirmation that my booking was submitted successfully.
 
