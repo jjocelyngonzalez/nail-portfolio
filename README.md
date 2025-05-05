@@ -13,8 +13,6 @@ This project is my first mock website, built using HTML and CSS! It's a website 
 
 -As a user, I want the form to be simple and not complicated.
 
--As a user, I want confirmation that my booking was submitted successfully.
-
 -As a user, I want the site to be mobile-friendly so I can book from my phone.
 
 ## 🚀 How to Use
